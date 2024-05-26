@@ -1,0 +1,31 @@
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\User\CLionProjects\course -B C:\Users\User\CLionProjects\course\cmake-build-debug
+-- Configuring done (0.0s)
+CMake Error at libs/data_structures/CMakeLists.txt:3 (add_library):
+  Cannot find source file:
+
+    vector/main.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+
+
+CMake Error at libs/algorithms/CMakeLists.txt:1 (add_library):
+  Cannot find source file:
+
+    algorithm.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+
+
+CMake Error at libs/data_structures/CMakeLists.txt:3 (add_library):
+  No SOURCES given to target: data_structures
+
+
+CMake Error at libs/algorithms/CMakeLists.txt:1 (add_library):
+  No SOURCES given to target: algorithms
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
